@@ -534,14 +534,14 @@ data['time'].append({
 with open('params.json', 'w') as outfile:
     json.dump(data, outfile)
 
-with open('metrics_params.json', 'r') as file:
-    configuration = json.load(file)
+# with open('metrics_params.json', 'r') as file:
+#     configuration = json.load(file)
 
-with open('metrics_params.yml', 'w') as yaml_file:
-    yaml.dump(configuration, yaml_file)
+# with open('metrics_params.yml', 'w') as yaml_file:
+#     yaml.dump(configuration, yaml_file)
 
-with open('params.json', 'r') as file:
-    configuration = json.load(file)
+# with open('params.json', 'r') as file:
+#     configuration = json.load(file)
 
-with open('params.yml', 'w') as yaml_file:
-    yaml.dump(configuration, yaml_file)
+# with open('params.yml', 'w') as yaml_file:
+#     yaml.dump(configuration, yaml_file)
