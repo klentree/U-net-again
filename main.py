@@ -403,7 +403,7 @@ def generate_plot(img_input, mask_truth, mask_probs):
     plt.show()
     
     
-batch_size = 4
+#batch_size = 4
 num_epochs = 2
 num_img = 256
 
