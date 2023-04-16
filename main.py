@@ -517,7 +517,7 @@ av_time_inf = (sum_time / sum)
 print("Average time of inference ", sum, " img: ", av_time_inf, "s/step       sum time: ", sum_time)
 
 
-with open('metrics_params.json', 'w') as f:
+with open('metrics.json', 'w') as f:
     json.dump(history.history, f)
 
 data = {}
@@ -531,7 +531,7 @@ data['time'].append({
     'Average time per image': av_time_img
 })
 
-with open('params.json', 'w') as outfile:
+with open('time.json', 'w') as outfile:
     json.dump(data, outfile)
 
 # with open('metrics_params.json', 'r') as file:
