@@ -38,7 +38,7 @@ def configuration():
         initializer = HeNormal(),
         buffer_size = 1,
         metrics = ['accuracy'],
-        dataset_path = "",
+        dataset_path = "/content/drive/My Drive/data",
         class_weights = tensorflow.constant([1.0, 1.0, 2.0]),
         validation_sub_splits = 5,
         lr_schedule_percentages = [0.2, 0.5, 0.8],
