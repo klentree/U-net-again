@@ -447,7 +447,8 @@ av_time_img = av_time_epoch/num_img #количество изображений
 
 print("The time of train: ", time_train, "sec")
 print("Average time per epoch: ", av_time_epoch, "sec")
-print("Average time per image: ", av_time_img, "sec")batch_size = 4
+print("Average time per image: ", av_time_img, "sec")
+batch_size = 4
 num_epochs = 2
 num_img = 256
 
